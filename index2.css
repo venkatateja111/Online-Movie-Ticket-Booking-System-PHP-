@@ -1,0 +1,66 @@
+h1{
+    font-size: 40px;
+    font-family: cursive;
+    color: whitesmoke;
+}
+
+h3{
+    font-size: 20px;
+    font-family:Verdana;
+    color: brown;
+}
+body{
+    background: url("img/backw.jpg");
+    background-size: cover;
+}
+footer{
+    
+    padding: 10px 0;
+    background-color: #101010;
+    color:#9d9d9d;
+    bottom: 0;
+    width: 100%;
+}
+.container1{
+   
+    margin-left: 200px;
+}
+
+.carousel {
+  width: 85%;
+}
+
+.carousel{
+   
+    margin-left: 100px;
+}
+.jumbotron{
+    background-color: rgba(0,0,0,0.4)!important;
+    color: greenyellow!important;
+}
+button
+{
+border: none;
+text-decoration:none;
+background-color:blue;
+border-radius: 30px;
+display:block;
+}
+
+button:hover
+{
+background-color:#0EA101  ;
+border-radius: 60px;
+}
+.bt1{
+    margin-left: 140px;
+    border: none;
+   // margin-bottom: -50px;
+    background-color: green;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}

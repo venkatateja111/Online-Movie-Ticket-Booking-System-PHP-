@@ -1,0 +1,81 @@
+image.tab-icon {
+	height: 20px !important;
+	max-width: 20px !important;
+}
+
+ .bu1{
+    margin-left: 140px;
+    border: none;
+    margin-bottom: -50px;
+    background-color: green;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+
+h3{
+    font-size: 20px;
+    font-family: cursive;
+    color: whitesmoke;
+}
+img {
+     width: 40%;
+	}
+	    
+.carousel-inner {
+      background-color: rgba(0,0,0,0.7);
+}
+    
+.carousel-caption {
+      font-size: 2em;
+      right: 10%;
+      left: 47%;
+      bottom: 30%;
+      text-align: left;
+      text-shadow: none;
+     }
+    
+.carousel-indicators{
+      font-size: 2em;
+      bottom: -1%;
+      text-align: left;
+      text-shadow: none;
+        }
+body{
+    background: url("img/webpic4.jpg");
+    background-size: cover;
+}
+footer{
+    
+    padding: 10px 0;
+    background-color: #101010;
+    color:#9d9d9d;
+    bottom: 0;
+    width: 100%;
+}
+.container1{
+   
+    margin-left: 200px;
+}
+
+.carousel {
+  width: 90%;
+}
+.carousel{
+   
+    margin-left: 100px;
+}
+.jumbotron{
+    background-color: rgba(0,0,0,0.4)!important;
+    color: greenyellow!important;
+}
+h1{
+    color: whitesmoke; 
+    font-family: fantasy;
+    font-size: 60px;
+    text-shadow: 2px 2px 8px red;
+}
