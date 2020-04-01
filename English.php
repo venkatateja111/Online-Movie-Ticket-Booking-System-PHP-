@@ -34,39 +34,18 @@ require("common.php");
         ?>
         <br><br><br>
         <div class="container" id="content">
-        
+            <!-- Jumbotron Header -->
             <div>
-                <h1 style="color: white;">Category:  Telugu  </h1>
+                <h1 style="color: white;">Category:  English </h1>
             </div>
             <hr>
 
             <div class="row text-center" id="cameras">
-                <div class="col-md-4 col-sm-6 ">
+                <div class="col-md-4 col-sm-6 home-feature">
                     
-                        <img src="img/2.jpg" alt="">
+                        <img src="img/20.jpg" alt="">
                         <div class="caption">
-                            <h3>That is MahaLaxmi </h3>
-                            <?php if (!isset($_SESSION['email_id'])) { ?>
-                                <p><a href="login.php" role="button" class="btn btn-primary bt1">Book Now</a></p>
-                                <?php
-                            } else {
-                                
-                                
-                                    ?>
-                                    <a href="book.php?id=2" name="add" value="add" class="btn btn-primary bt1">Book Now</a>
-                                    <?php
-                                
-                            }
-                            ?>
-                                
-                        </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6">
-                    
-                        <img src="img/3.jpg" alt="">
-                        <div class="caption">
-                            <h3>Majili </h3>
+                            <h3>Spider Man(Far From Home) </h3>
                                 <?php if (!isset($_SESSION['email_id'])) { ?>
                                 <p><a href="login.php" role="button" class="btn btn-primary bt1">Book Now</a></p>
                                 <?php
@@ -74,7 +53,27 @@ require("common.php");
                                 
                                 
                                     ?>
-                                    <a href="book.php?id=3" name="add" value="add" class="btn btn-primary bt1">Book Now</a>
+                                    <a href="book.php?id=20" name="add" value="add" class="btn btn-primary bt1">Book Now</a>
+                                    <?php
+                                
+                            }
+                            ?>
+                        </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 home-feature">
+                    
+                        <img src="img/21.jpg" alt="">
+                        <div class="caption">
+                            <h3>Hobbs & Shaw </h3>
+                               <?php if (!isset($_SESSION['email_id'])) { ?>
+                                <p><a href="login.php" role="button" class="btn btn-primary bt1">Book Now</a></p>
+                                <?php
+                            } else {
+                                
+                                
+                                    ?>
+                                    <a href="book.php?id=21" name="add" value="add" class="btn btn-primary bt1">Book Now</a>
                                     <?php
                                 
                             }
@@ -83,11 +82,11 @@ require("common.php");
                     
                 </div>
 
-                <div class="col-md-4 col-sm-6 ">
+                <div class="col-md-4 col-sm-6 home-feature">
                     
-                        <img src="img/4.jpg" alt="">
+                        <img src="img/22.jpg" alt="">
                         <div class="caption">
-                            <h3>Suryakantham </h3>
+                            <h3>Joker </h3>
                                 <?php if (!isset($_SESSION['email_id'])) { ?>
                                 <p><a href="login.php" role="button" class="btn btn-primary bt1">Book Now</a></p>
                                 <?php
@@ -95,7 +94,7 @@ require("common.php");
                                 
                                 
                                     ?>
-                                    <a href="book.php?id=4" name="add" value="add" class="btn btn-primary bt1">Book Now</a>
+                                    <a href="book.php?id=22" name="add" value="add" class="btn btn-primary bt1">Book Now</a>
                                     <?php
                                 
                             }
@@ -110,9 +109,9 @@ require("common.php");
             <div class="row text-center" id="cameras">
                 <div class="col-md-4 col-sm-6 home-feature">
                     
-                        <img src="img/5.jpg" alt="">
+                        <img src="img/23.jpg" alt="">
                         <div class="caption">
-                            <h3>Geetha govindham </h3>
+                            <h3>Gemini man </h3>
                                 <?php if (!isset($_SESSION['email_id'])) { ?>
                                 <p><a href="login.php" role="button" class="btn btn-primary bt1">Book Now</a></p>
                                 <?php
@@ -120,7 +119,7 @@ require("common.php");
                                 
                                 
                                     ?>
-                                    <a href="book.php?id=5" name="add" value="add" class="btn btn-primary bt1">Book Now</a>
+                                    <a href="book.php?id=23" name="add" value="add" class="btn btn-primary bt1">Book Now</a>
                                     <?php
                                 
                             }
@@ -130,9 +129,9 @@ require("common.php");
 
                 <div class="col-md-4 col-sm-6 home-feature">
                     
-                        <img src="img/6.jpg" alt="">
+                        <img src="img/24.jpg" alt="">
                         <div class="caption">
-                            <h3>Tholiprema </h3>
+                            <h3>Johnwick3 </h3>
                                 <?php if (!isset($_SESSION['email_id'])) { ?>
                                 <p><a href="login.php" role="button" class="btn btn-primary bt1">Book Now</a></p>
                                 <?php
@@ -140,7 +139,7 @@ require("common.php");
                                 
                                 
                                     ?>
-                                    <a href="book.php?id=6" name="add" value="add" class="btn btn-primary bt1">Book Now</a>
+                                    <a href="book.php?id=24" name="add" value="add" class="btn btn-primary bt1">Book Now</a>
                                     <?php
                                 
                             }
@@ -151,9 +150,9 @@ require("common.php");
 
                 <div class="col-md-4 col-sm-6 home-feature">
                     
-                        <img src="img/7.jpg" alt="">
+                        <img src="img/25.jpg" alt="">
                         <div class="caption">
-                            <h3> GangLeader </h3>
+                            <h3> Shazam </h3>
                                 <?php if (!isset($_SESSION['email_id'])) { ?>
                                 <p><a href="login.php" role="button" class="btn btn-primary bt1">Book Now</a></p>
                                 <?php
@@ -161,7 +160,7 @@ require("common.php");
                                 
                                 
                                     ?>
-                                    <a href="book.php?id=7" name="add" value="add" class="btn btn-primary bt1">Book Now</a>
+                                    <a href="book.php?id=25" name="add" value="add" class="btn btn-primary bt1">Book Now</a>
                                     <?php
                                 
                             }
@@ -176,9 +175,9 @@ require("common.php");
             <div class="row text-center" id="cameras">
                 <div class="col-md-4 col-sm-6 home-feature">
                     
-                        <img src="img/8.jpg" alt="">
+                        <img src="img/26.jpg" alt="">
                         <div class="caption">
-                            <h3>Syeraa </h3>
+                            <h3>Maleficent2 </h3>
                                 <?php if (!isset($_SESSION['email_id'])) { ?>
                                 <p><a href="login.php" role="button" class="btn btn-primary bt1">Book Now</a></p>
                                 <?php
@@ -186,7 +185,7 @@ require("common.php");
                                 
                                 
                                     ?>
-                                    <a href="book.php?id=8" name="add" value="add" class="btn btn-primary bt1">Book Now</a>
+                                    <a href="book.php?id=26" name="add" value="add" class="btn btn-primary bt1">Book Now</a>
                                     <?php
                                 
                             }
@@ -196,9 +195,9 @@ require("common.php");
 
                 <div class="col-md-4 col-sm-6 home-feature">
                     
-                        <img src="img/9.jpg" alt="">
+                        <img src="img/27.jpg" alt="">
                         <div class="caption">
-                            <h3>Chanakya </h3>
+                            <h3>Alladdin </h3>
                                 <?php if (!isset($_SESSION['email_id'])) { ?>
                                 <p><a href="login.php" role="button" class="btn btn-primary bt1">Book Now</a></p>
                                 <?php
@@ -206,7 +205,7 @@ require("common.php");
                                 
                                 
                                     ?>
-                                    <a href="book.php?id=9" name="add" value="add" class="btn btn-primary bt1">Book Now</a>
+                                    <a href="book.php?id=27" name="add" value="add" class="btn btn-primary bt1">Book Now</a>
                                     <?php
                                 
                             }
@@ -217,9 +216,9 @@ require("common.php");
 
                 <div class="col-md-4 col-sm-6 home-feature">
                     
-                        <img src="img/10.jpg" alt="">
+                        <img src="img/28.jpg" alt="">
                         <div class="caption">
-                            <h3>Saaho </h3>
+                            <h3>IT </h3>
                                 <?php if (!isset($_SESSION['email_id'])) { ?>
                                 <p><a href="login.php" role="button" class="btn btn-primary bt1">Book Now</a></p>
                                 <?php
@@ -227,7 +226,7 @@ require("common.php");
                                 
                                 
                                     ?>
-                                    <a href="book.php?id=10" name="add" value="add" class="btn btn-primary bt1">Book Now</a>
+                                    <a href="book.php?id=28" name="add" value="add" class="btn btn-primary bt1">Book Now</a>
                                     <?php
                                 
                             }

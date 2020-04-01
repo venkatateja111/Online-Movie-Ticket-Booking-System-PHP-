@@ -13,16 +13,15 @@ $from = 'movieticks@movies.com';
   $name1 = $_SESSION['name'];
   $date  = $_SESSION['date'];
  
-// To send HTML mail, the Content-type header must be set
 $headers  = 'MIME-Version: 1.0' . "\r\n";
 $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
  
-// Create email headers
+
 $headers .= 'From: '.$from."\r\n".
     'Reply-To: '.$from."\r\n" .
     'X-Mailer: PHP/' . phpversion();
  
-// Compose a simple HTML email message
+
 $message = "<html><body>";
 $message .= "<h1 style='color:red;'>Hello $name1 </h1>";
 $message .= "<p style='color:green;font-size:18px;'>You have successfully booked the movie $mname for the date $date </p>";
@@ -30,7 +29,7 @@ $message .= "<p style='color:green;font-size:18px;'>Number of tickets booked are
 $message .= "<p style='color:green;font-size:18px;'>Total price is   $total</p>";
 $message .= "</body></html>";
  
-// Sending email
+
 if(mail($to, $subject, $message, $headers)){
     header('location: success.php?vari=success');
 } else{

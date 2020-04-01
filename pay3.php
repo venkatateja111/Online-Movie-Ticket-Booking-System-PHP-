@@ -1,11 +1,11 @@
 <?php   
 require('common.php');
+
+   
 $name = $_SESSION['name'];
 $pid = $_SESSION['pid'];
-$price = $_POST['price'];
-$date = $_POST['date1'];
-$_SESSION['date'] = $date;
-$_SESSION['price'] = $price;
+$price = $_SESSION['price'];
+$date = $_SESSION['date'];
 $total = $price *250 + $price *10;
 $_SESSION['total'] = $total;
 $uid = $_SESSION['user_id'];
@@ -14,7 +14,7 @@ if($total != 0){
 $query1 = "SELECT * FROM `user_products` WHERE `uid` = '$uid' AND `pid` = '$pid' AND `no_of_tickets` = '$price' AND `total` = '$total' AND `date` = '$date' AND `status` = 'pending'";
 $result = mysqli_query($con, $query1) or die(mysqli_error($con));
 $num = mysqli_num_rows($result);
-if($num == 0){
+if(($num == 0) && ($price > 0)){
 $query = "INSERT INTO `user_products`(`uid`, `pid`,`no_of_tickets`, `total`,`date`, `status`) VALUES('$uid', '$pid', '$price','$total','$date','pending')";
     mysqli_query($con, $query) or die(mysqli_error($con));}}
 

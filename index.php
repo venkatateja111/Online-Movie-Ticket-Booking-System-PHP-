@@ -26,9 +26,9 @@ require("common.php");
         </div>
         
     <div class="container">
-<!--The main div for carousel-->
+
 <div id="carousel-demo" class="carousel slide" data-ride="carousel" data-interval="2000">
- <!-- Indicators -->
+
   <ol class="carousel-indicators">
     <li data-target="#carousel-demo" data-slide-to="0" class="active"></li>
     <li data-target="#carousel-demo" data-slide-to="1"></li>
@@ -39,7 +39,7 @@ require("common.php");
   </ol>
  <div class="row">
   <div class="col-sm-6  col-md-3 col-lg-12">
-  <!-- Sliding images statring here --> 
+
   <div class="carousel-inner" style="width: auto;" class="col-sm-6  col-md-3 col-lg-12">
       
     <div class="item active"> 

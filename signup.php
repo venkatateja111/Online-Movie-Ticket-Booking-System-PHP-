@@ -24,9 +24,9 @@ body{
     float: right;
     margin-right: 100px; 
   }
-  .text-center{
+  .text-center{    
     color:  black;
-  }
+  }    
   .a8{
     color: red;
   }
